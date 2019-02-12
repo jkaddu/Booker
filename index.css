@@ -51,10 +51,15 @@ table {
 * {
     box-sizing: border-box;
 }
+body {
+    background: url(https://martijnscheijbeler.com/wp-content/uploads/2018/01/books.jpg);
+}
+
 
 /* Container */
 .container {
     width: 1000px;
+    height: 800px;
     margin: 0 auto;
     background: #43d9b8;
 }
@@ -63,11 +68,33 @@ header {
     text-align: center;
     font-style: bold;
     font-size: 40px;
-    font-family: 'FontAwesome';
+    font-family: 'Source Sans Pro';
+    border: 1px solid red;
+    padding: 20px;
+}
+.content {
+    display: flex;
+    padding: 30px;
+}
+.content h2  {
+    padding: 10px;
+    font-size: 40px;
+}
+.content p {
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    padding: 10px;
+    width: 100%;
+}
+.login {
+    text-align: center;
 }
 
-.content a {
-    padding: 10px;
+a {
+    border: 1px solid red;
     text-decoration: none;
-
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
 }
