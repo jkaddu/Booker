@@ -133,6 +133,8 @@ footer p {
 }
 .cont {
   display: flex;
+  align-items: center;
+  height: 72vh;
 }
 .team {
   display: flex;
@@ -152,7 +154,7 @@ footer p {
   margin-top: 10px;
   text-decoration: none;
 }
-.contain footer nav a {
+.contain footer a {
   padding: 10px;
   margin: 0 20px;
   font-weight: bold;
@@ -202,10 +204,6 @@ footer p {
   }
 
   /* About page */
-  .cont {
-    display: flex;
-    align-items: center;
-  }
   .contain {
     width: 100%;
     margin: 0 auto;
@@ -220,6 +218,7 @@ footer p {
   .contain footer a {
     padding: 10px;
     margin: 0 20px;
+    font-weight: bold;
     color: #43d9b8;
     text-decoration: none;
   }
