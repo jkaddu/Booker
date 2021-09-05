@@ -14,7 +14,7 @@ body {
   background: #f0ffff;
   opacity: 0.85;
 }
-.container header {
+header {
   width: 1000px;
   height: 75px;
   background: #f0ffff;
@@ -23,35 +23,34 @@ body {
   top: 0;
   z-index: 2;
 }
-.container header .menu-button {
+.menu-button {
   opacity: 0.99;
   height: 70px;
   margin-left: 0;
   position: absolute;
   cursor: pointer;
 }
-.container .menu {
-  background: gray;
+.menu {
+  background: black;
   display: none;
   position: fixed;
   top: 75px;
   width: 350px;
-  height: 100vh;
   border: 1px solid black;
   border-left: none;
   border-bottom: none;
   z-index: 2;
 }
-.container .menu a {
+.menu a {
   display: flex;
   justify-content: center;
-  color: black;
+  color: #f0ffff;
   text-decoration: none;
   font-size: 32px;
   padding: 30px 0;
   text-align: center;
 }
-.container .menu--open {
+.menu--open {
   display: block;
 }
 .container h1 {
@@ -61,22 +60,22 @@ body {
   font-size: 60px;
   margin-bottom: 0;
 }
-.container .logo {
+.logo {
   width: 65%;
   margin-left: 180px;
 }
-.container .content {
+.content {
   display: flex;
   flex-direction: column;
   padding: 20px;
 }
-.container .content h2 {
+.content h2 {
   padding: 10px;
   font-size: 40px;
   text-align: center;
   margin: 10px;
 }
-.container .content p {
+.content p {
   text-align: center;
   color: red;
   border: 1px solid black;
@@ -84,11 +83,11 @@ body {
   width: 100%;
   margin: 0;
 }
-.container .login {
+.login {
   text-align: center;
   padding: 10px;
 }
-.container .login a {
+.login a {
   color: #43d9b8;
   background: black;
   text-decoration: none;
@@ -96,29 +95,33 @@ body {
   padding: 10px;
   margin: 0 auto;
 }
-.container .login a:hover {
+.login a:hover {
   background: #43d9b8;
   color: black;
   border-radius: 10px;
   border: 1px solid black;
 }
-.container .who {
+.who {
   background: white;
 }
-.container .who p {
+.who p {
   background: white;
   text-align: center;
   padding: 10px;
 }
-.container footer {
+footer {
   background: black;
   padding: 20px;
   margin-top: 30px;
   display: flex;
 }
-.container footer p {
+footer p {
   text-align: center;
+  color: #f0ffff;
 }
+
+/* About page */
+
 .container2 {
   width: 1000px;
   margin: 0 auto;
@@ -129,7 +132,7 @@ body {
   padding-top: 30px;
   text-align: center;
 }
-.container2 .team {
+.team {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -148,7 +151,7 @@ body {
   margin-top: 10px;
 }
 .container2 .team footer {
-  background: black;
+  background: rgb(75, 75, 75);
   display: flex;
 }
 .container2 .team footer nav {
@@ -167,33 +170,33 @@ body {
     height: 100vh;
     margin: 0 auto;
   }
-  .container header {
+  header {
     width: 96%;
     color: black;
   }
-  .container header nav {
+  header nav {
     color: #43d9b8;
     text-decoration: none;
     position: fixed;
     top: 0;
     width: 100%;
   }
-  .container .logo {
+  .logo {
     margin-left: 70px;
   }
-  .container .content {
+  .content {
     padding: 10px;
   }
-  .container .content p {
+  .content p {
     padding: 10px;
   }
-  .container .content .login {
+  .login {
     margin: 10px;
   }
-  .container .content a {
+  .content a {
     border: 1px solid black;
   }
-  .container footer {
+  footer {
     display: flex;
     justify-content: space-around;
     padding: 10px;
