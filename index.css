@@ -139,26 +139,26 @@ footer p {
   flex-direction: column;
   margin: 20px auto;
 }
-.container2 .team h2 {
+.team h2 {
   padding: 10px;
 }
-.container2 .team img {
+.team img {
   margin: 0 auto;
   width: 70px;
   height: 70px;
 }
-.container2 .team a {
+.team a {
   margin-top: 10px;
 }
-.container2 .team footer {
+.team footer {
   background: rgb(75, 75, 75);
   display: flex;
 }
-.container2 .team footer nav {
+.team footer nav {
   display: flex;
   justify-content: space-evenly;
 }
-.container2 .team footer a {
+.team footer a {
   padding: 10px;
   margin: 0 20px;
   color: #43d9b8;
