@@ -3,157 +3,181 @@
   box-sizing: border-box;
 }
 body {
-  height: 100%;
-  background: url(https://martijnscheijbeler.com/wp-content/uploads/2018/01/books.jpg);
+  background: url(/images/booksReader.jpg);
+  background-size: cover;
 }
+
 /* Landing page */
+
 .container {
   width: 1000px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 1.875rem;
   background: #f0ffff;
   opacity: 0.85;
 }
+
 header {
   width: 1000px;
-  height: 75px;
+  height: 4.6875rem;
   background: #f0ffff;
   border-bottom: 1px solid black;
   position: fixed;
   top: 0;
   z-index: 2;
 }
+
 .menu-button {
   opacity: 0.99;
-  height: 70px;
+  height: 4.375rem;
   margin-left: 0;
   position: absolute;
   cursor: pointer;
 }
+
 .menu {
   background: black;
   display: none;
   position: fixed;
-  top: 75px;
-  width: 350px;
+  top: 4.6875rem;
+  width: 15rem;
   border: 1px solid black;
   border-left: none;
   border-bottom: none;
   z-index: 2;
 }
+
 .menu a {
   display: flex;
   justify-content: center;
   color: #f0ffff;
   text-decoration: none;
-  font-size: 32px;
-  padding: 30px 0;
+  font-size: 2rem;
+  padding: 1.5rem 0;
   text-align: center;
 }
+
 .menu--open {
   display: block;
 }
+
 .container h1 {
-  padding-top: 30px;
+  padding-top: 1.875rem;
   text-align: center;
   font-family: "Source Sans Pro";
-  font-size: 60px;
+  font-size: 3.75rem;
   margin-bottom: 0;
 }
+
 .logo {
   width: 65%;
-  margin-left: 180px;
+  margin-left: 11.25rem;
 }
+
 .content {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 1.23rem;
 }
+
 .content h2 {
-  padding: 10px;
-  font-size: 40px;
+  padding: .625rem;
+  font-size: 2.5rem;
   text-align: center;
-  margin: 10px;
+  margin: .625rem;
 }
+
 .content p {
   text-align: center;
   color: red;
   border: 1px solid black;
-  padding: 10px;
+  padding: .625rem;
   width: 100%;
   margin: 0;
 }
+
 .login {
   text-align: center;
-  padding: 10px;
+  padding: .625rem;
 }
+
 .login a {
   color: #43d9b8;
   background: black;
   text-decoration: none;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: .625rem;
+  padding: .625rem;
   margin: 0 auto;
 }
+
 .login a:hover {
   background: #43d9b8;
   color: black;
-  border-radius: 10px;
+  border-radius: .625rem;
   border: 1px solid black;
 }
+
 .who {
   background: white;
 }
+
 .who p {
   background: white;
   text-align: center;
-  padding: 10px;
+  padding: .625rem;
 }
+
 footer {
   background: black;
-  padding: 20px;
-  margin-top: 30px;
+  padding: 1.25rem;
   display: flex;
 }
+
 footer p {
-  text-align: center;
   color: #f0ffff;
 }
 
 /* About page */
+
 .contain {
   width: 1000px;
-  height: 100vh;
   margin: 0 auto;
   background: #f0ffff;
   opacity: 0.85;
 }
+
 .contain h1 {
   text-align: center;
 }
+
 .cont {
   display: flex;
   align-items: center;
-  height: 72vh;
+  height: 87vh;
 }
+
 .team {
   display: flex;
   text-align: center;
   flex-direction: column;
   margin: 20px auto;
 }
+
 .team h2 {
   padding: 10px;
 }
+
 .team img {
   margin: 0 auto;
   width: 70px;
   height: 70px;
 }
+
 .team a {
   margin-top: 10px;
   text-decoration: none;
 }
+
 .contain footer a {
   padding: 10px;
   margin: 0 20px;
@@ -163,6 +187,7 @@ footer p {
 }
 
 /* media query */
+
 @media (max-width: 748px) {
   /* Landing Page */
   .container {
@@ -170,10 +195,12 @@ footer p {
     height: 100vh;
     margin: 0 auto;
   }
+
   header {
     width: 96%;
     color: black;
   }
+
   header nav {
     color: #43d9b8;
     text-decoration: none;
@@ -181,21 +208,27 @@ footer p {
     top: 0;
     width: 100%;
   }
+
   .logo {
     margin-left: 70px;
   }
+
   .content {
     padding: 10px;
   }
+
   .content p {
     padding: 10px;
   }
+
   .login {
     margin: 10px;
   }
+
   .content a {
     border: 1px solid black;
   }
+
   footer {
     display: flex;
     justify-content: space-around;
@@ -208,13 +241,16 @@ footer p {
     width: 100%;
     margin: 0 auto;
   }
+
   .contain h1 {
     padding-top: 20px;
   }
+
   .contain footer {
     background: black;
     display: flex;
   }
+
   .contain footer a {
     padding: 10px;
     margin: 0 20px;
