@@ -1,6 +1,7 @@
 /* Styles */
 * {
   box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
 }
 body {
   background: url(/images/booksReader.jpg);
@@ -20,6 +21,7 @@ body {
 header {
   width: 1000px;
   height: 4.6875rem;
+  font-family: 'Oswald', sans-serif;
   background: #f0ffff;
   border-bottom: 1px solid black;
   position: fixed;
@@ -64,7 +66,7 @@ header {
 .container h1 {
   padding-top: 1.875rem;
   text-align: center;
-  font-family: "Source Sans Pro";
+  font-family: 'Oswald', sans-serif;
   font-size: 3.75rem;
   margin-bottom: 0;
 }
