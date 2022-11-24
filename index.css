@@ -67,8 +67,6 @@ body {
 
 header {
   width: 1000px;
-  height: 4.6875rem;
-  font-family: 'Oswald', sans-serif;
   background: #f0ffff;
   border-bottom: 1px solid black;
   position: fixed;
@@ -85,15 +83,7 @@ header {
 }
 
 .menu {
-  background: black;
-  display: none;
-  position: fixed;
-  top: 4.6875rem;
-  width: 15rem;
-  border: 1px solid black;
-  border-left: none;
-  border-bottom: none;
-  z-index: 2;
+  background: #2596be;
 }
 
 .menu a {
@@ -103,13 +93,7 @@ header {
   text-decoration: none;
   font-size: 2rem;
   padding: 1.5rem 0;
-  text-align: center;
 }
-
-.menu--open {
-  display: block;
-}
-
 .container h1 {
   padding-top: 1.875rem;
   text-align: center;
@@ -120,7 +104,6 @@ header {
 
 .logo {
   width: 65%;
-  margin-left: 11.25rem;
 }
 
 .content {
@@ -151,8 +134,8 @@ header {
 }
 
 .login a {
-  color: #43d9b8;
-  background: black;
+  color: #f0ffff;
+  background: #2596be;
   text-decoration: none;
   border-radius: .625rem;
   padding: .625rem;
@@ -160,9 +143,9 @@ header {
 }
 
 .login a:hover {
-  background: #43d9b8;
-  color: black;
-  border-radius: .625rem;
+  background: #f0ffff;
+  color: #2596be;
+  border-radius: 5px;
   border: 1px solid black;
 }
 
