@@ -72,17 +72,14 @@ body::-webkit-scrollbar {
   background: #f0ffff;
 }
 header {
-  width: 1000px;
-  background: #f0ffff;
-  position: fixed;
-  z-index: 1;
-}
-.menu {
   display: flex;
   justify-content: center;
   background: #2596be;
+  width: 1000px;
+  position: fixed;
+  z-index: 1;
 }
-.menu a {
+header a {
   color: #f0ffff;
   text-decoration: none;
   font-size: 2rem;
@@ -166,46 +163,56 @@ footer a {
   width: 1000px;
   margin: 0 auto;
   background: #f0ffff;
-  opacity: 0.85;
 }
-
 .contain h1 {
   text-align: center;
+  color: #f0ffff;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.5% 0;
 }
-
 .cont {
   display: flex;
   align-items: center;
-  height: 87vh;
+  height: 91vh;
 }
-
 .team {
   display: flex;
   text-align: center;
   flex-direction: column;
-  margin: 20px auto;
+  margin: 0 auto;
 }
-
 .team h2 {
-  padding: 10px;
+  margin-bottom: 10%;
+  font-weight: bold;
 }
-
 .team img {
   margin: 0 auto;
-  width: 70px;
-  height: 70px;
+  width: 30%;
+  height: 30%;
 }
-
-.team a {
-  margin-top: 10px;
-  text-decoration: none;
-}
-
-.contain footer a {
-  padding: 10px;
-  margin: 0 20px;
+.team h3 {
+  margin-top: 7%;
   font-weight: bold;
-  color: #43d9b8;
+  color: #2596be;
+}
+.team a {
+  margin: 5% auto;
+  padding: 2% 4%;
+  color: black;
+  background-color: #2596be;
+  border-radius: 10px;
+  width: 30%;
+  text-decoration: none;
+  font-weight: bold;
+}
+.team a:hover {
+  color: #2596be;
+  background-color: black;
+}
+.contain footer a {
+  font-weight: bold;
+  color: #f0ffff;
   text-decoration: none;
 }
 
