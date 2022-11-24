@@ -55,6 +55,13 @@ table {
 body {
   background: url(/images/booksReader.jpg);
   background-size: cover;
+  /* Hides scrollbar */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+/* Hides scrollbar for Chrome/Safari/Edge */
+body::-webkit-scrollbar {
+  display: none;
 }
 
 /* Landing page */
