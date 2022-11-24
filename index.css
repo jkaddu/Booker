@@ -62,9 +62,7 @@ body {
 .container {
   width: 1000px;
   margin: 0 auto;
-  margin-top: 1.875rem;
   background: #f0ffff;
-  opacity: 0.85;
 }
 
 header {
