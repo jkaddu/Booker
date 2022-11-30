@@ -96,6 +96,7 @@ header a {
 }
 .content {
   display: flex;
+  margin-left: 9%;
   padding: 3%;
 }
 .content img {
