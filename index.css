@@ -421,16 +421,22 @@ footer a {
   header {
     width: 100%;
   }
-  .topsection h1 {
-    padding-top: 15%;
+  header div p {
+    margin-top: 3%;
+  }
+  .ctaBtn {
+    margin-top: 5%;
   }
   .content {
     display: flex;
-    flex-wrap: wrap;
-    padding: 5%;
+    flex-direction: column-reverse;
+    padding: 1% 5%;
+    height: 100%;
   }
-  .logo {
-    margin: 0 auto;
+  .content2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
   footer {
     display: flex;
@@ -440,13 +446,6 @@ footer a {
   /* About page */
 
   .contain {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .contain header {
-    width: 100%;
-  }
-  .cont {
     display: flex;
     flex-wrap: wrap;
     padding-top: 15%;
