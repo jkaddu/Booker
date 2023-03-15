@@ -166,19 +166,10 @@ header nav {
   z-index: 1;
   background-color: #f0ffff;
 }
-header h1 {
-  font-size: 3rem;
-  font-weight: bold;
-  padding-top: 8%;
-  padding-left: 2%;
-}
-header p {
-  font-size: 1.5rem;
-  padding-top: 1%;
-  padding-left: 2%;
-}
 header nav img {
-  height: 40px;
+  border: red;
+  height: 50px;
+  width: 50px;
 }
 header nav a {
   color: #2596be;
@@ -187,58 +178,155 @@ header nav a {
   padding: 1.5% 0;
   font-weight: bold;
 }
-/* Top Section */
-.topsection {
-  background: #f0ffff;
+header div {
+  padding-top: 5%;
 }
-.logo {
-  width: 65%;
+header div h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.1;
+  padding-top: 8%;
+  padding-left: 2%;
+}
+header div p {
+  font-size: 1.5rem;
+  padding-top: 1%;
+  padding-left: 2%;
+}
+.ctaBtn {
+  color: #f0ffff;
+  background: #2596be;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 2%;
+  margin-top: 2%;
+  padding: 1% 3%;
+  opacity: 1;
+}
+
+/* Top Section */
+
+.top-section {
+  background: #f0ffff;
+  height: 100vh;
 }
 .content {
   display: flex;
+  align-items: center;
   padding: 3%;
 }
-.content img {
+.libImg {
   width: 40%;
+  height: 60vh;
 }
 .content div {
   padding: 10%;
 }
 .content div h2 {
-  padding: 1%;
   font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 5%;
+  line-height: 1.1;
+  margin-bottom: 2%;
 }
 .content p {
-  text-align: center;
   font-size: 1.4rem;
-  font-weight: bold;
   line-height: 1.5;
-  color: #2596be;
-  border: 1px solid black;
-  border-radius: 10px;
-  padding: 3%;
 }
-.login {
-  text-align: center;
-  margin: 5%;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-.login a {
+.ctaBtn2 {
   color: #f0ffff;
   background: #2596be;
-  text-decoration: none;
-  border-radius: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
   padding: 1% 3%;
-  margin: 0 auto;
+  margin-top: 2%;
 }
-.login a:hover {
-  background: #f0ffff;
-  color: #2596be;
-  border: 1px solid black;
+.ctaBtn2 a {
+  color: #f0ffff;
+  text-decoration: none;
 }
+
+/* Mid Section */
+
+.mid-section {
+  background-color: #2596be;
+  height: 100vh;
+}
+.content2 {
+  display: flex;
+  align-items: center;
+  padding: 3%;
+  padding-right: 10%;
+}
+.libImg2 {
+  width: 40%;
+  height: 60vh;
+}
+.content2 div {
+  padding: 15%;
+}
+.content2 div h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 2%;
+}
+.content2 p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+.ctaBtn3 {
+  color: #f0ffff;
+  background: #2596be;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 4%;
+}
+
+/* Bottom Section */
+
+.bottom-section {
+  background-color: #f0ffff;
+  height: 90vh;
+}
+.content3 {
+  display: flex;
+  align-items: center;
+  padding: 3%;
+}
+.libImg {
+  width: 40%;
+  height: 60vh;
+}
+.content3 div {
+  padding: 10%;
+}
+.content3 div h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 2%;
+}
+.content3 p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+.ctaBtn3 {
+  color: #f0ffff;
+  background: #2596be;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1% 3%;
+  margin-top: 2%;
+}
+.ctaBtn3 a {
+  color: #f0ffff;
+  text-decoration: none;
+}
+
 footer {
   background: #2596be;
   padding: 2%;
@@ -258,50 +346,56 @@ footer a {
 
 /* About page */
 
-.contain {
-  width: 1000px;
-  margin: 0 auto;
-  background: #f0ffff;
+.about-header {
+  height: 10vh;
+  background-color: black;
 }
-.contain h1 {
+.about {
+  background-color: #f0ffff;
   text-align: center;
-  color: #f0ffff;
-  font-size: 2rem;
-  font-weight: bold;
-  padding: 1.5% 0;
 }
-.cont {
+.about h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 3%;
+}
+.about p {
+  padding-top: 2%;
+}
+.contain {
   display: flex;
-  align-items: center;
-  height: 91vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 80vh;
+  width: 100%;
+  background: #f0ffff;
 }
 .team {
   display: flex;
-  text-align: center;
   flex-direction: column;
-  margin: 0 auto;
+  align-items: center;
+  padding-top: 2%;
+  width: 35%;
 }
 .team h2 {
-  margin-bottom: 10%;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 .team img {
-  margin: 0 auto;
-  width: 30%;
-  height: 30%;
+  margin-top: 3%;
+  width: 15%;
 }
 .team h3 {
-  margin-top: 7%;
+  margin-top: 3%;
   font-weight: bold;
   color: #2596be;
 }
 .team a {
-  margin: 5% auto;
+  margin: 3% auto;
   padding: 2% 4%;
   color: black;
   background-color: #2596be;
-  border-radius: 10px;
-  width: 30%;
+  border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
 }
