@@ -145,7 +145,7 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-/* Landing page */
+/* Header */
 
 .container {
   margin: 0 auto;
@@ -245,6 +245,11 @@ header div p {
 .ctaBtn2 a {
   color: #f0ffff;
   text-decoration: none;
+}
+
+.hidden-section {
+  opacity: 0;
+  transform: translateY(8rem);
 }
 
 /* Mid Section */
@@ -449,6 +454,8 @@ footer a {
   footer {
     display: flex;
     justify-content: space-between;
+    height: 3.5rem;
+    padding-top: 4%;
   }
 
   /* About page */
