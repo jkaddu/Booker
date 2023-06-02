@@ -345,6 +345,9 @@ footer a {
 }
 
 /* About page */
+.aboutContainer {
+  height: 100vh;
+}
 
 .about-header {
   height: 10vh;
