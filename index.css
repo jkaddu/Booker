@@ -145,7 +145,7 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-/* Landing page */
+/* Header */
 
 .container {
   margin: 0 auto;
@@ -250,6 +250,11 @@ header div p {
 .ctaBtn2 a {
   color: #f0ffff;
   text-decoration: none;
+}
+
+.hidden-section {
+  opacity: 0;
+  transform: translateY(8rem);
 }
 
 /* Mid Section */
@@ -428,20 +433,30 @@ footer a {
   .ctaBtn {
     margin-top: 5%;
   }
+  .top-section {
+    height: 110vh;
+    padding-top: 5%;
+  }
   .content {
     display: flex;
     flex-direction: column-reverse;
-    padding: 1% 5%;
-    height: 100%;
+    padding: 15% 5% 1% 5%;
+    height: 100vh;
+  }
+  .mid-section {
+    height: 110vh;
+    padding-bottom: 20%;
   }
   .content2 {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 100vh;
   }
   footer {
     display: flex;
     justify-content: space-between;
+    height: 3.5rem;
+    padding-top: 4%;
   }
 
   /* About page */
