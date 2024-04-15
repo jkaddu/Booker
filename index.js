@@ -15,6 +15,24 @@ ctaBtn.addEventListener("click", function () {
   window.open("https://determined-leakey-71b016.netlify.com/");
 });
 
+const ctaBtn2 = document.querySelector(".ctaBtn2");
+
+ctaBtn2.addEventListener("click", function () {
+  window.open("https://determined-leakey-71b016.netlify.com/");
+});
+
+const btnMid = document.querySelector(".btn-mid");
+
+btnMid.addEventListener("click", function () {
+  window.open("https://determined-leakey-71b016.netlify.com/");
+});
+
+const btnBot = document.querySelector(".btn-bot");
+
+btnBot.addEventListener("click", function () {
+  window.open("https://determined-leakey-71b016.netlify.com/");
+});
+
 // const nav = document.querySelector("nav");
 // nav.addEventListener("scroll", function () {
 //   nav.style.backgroundColor = "red";
